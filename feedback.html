@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="lo.png" rel="icon">
+<meta charset="UTF-8">
+<title>FEEDBACK FORM</title>
+<style>
+
+.container{
+width:50%;
+height:100%;
+margin:auto;
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(50px);
+box-shadow:2px 2px 20px black;
+font-family:Calibri;
+}
+
+form{
+display:block;
+padding:30px;
+border-radius:20px;
+
+font-family:Calibri;
+}
+
+h1 {
+text-align:center;
+color:white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+width:100%;
+padding:10px;
+border-radius:20px;
+box-sizing:border-box;
+background-color:transparent;
+border-color:black;
+color:black;
+margin-bottom: 10px;
+}
+
+label{
+font-weight:bold;
+color:black;
+letter-spacing:2px;
+text-transform:uppercase;
+line-height:20px;
+padding-left:10px;
+}
+
+button{
+background-color:transparent;
+text-transform:uppercase;
+color:black;
+width:30%;
+height:30px;
+border-radius:20px;
+border-color:black;
+font-weight:bold;
+font-family:Calibri;
+}
+
+body{
+background-image:url("b11.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<form action="">
+<h1> FEEDBACK FORM </h1>
+
+<div>
+<label for="fst">First name</label>
+<input type="text" id="fst" placeholder="Enter Your First Name:" required>
+</div>
+<br>
+
+<div>
+<label for="lst">Last name</label>
+<input type="text" id="lst" placeholder="Enter Your Last Name:" required >
+</div>
+<br>
+
+<div>
+<label for="mail">Email </label>
+<input type="email" id="mail" placeholder="Enter Your Email:" required>
+</div>
+<br>
+
+
+<div>
+<label for="phone">Mobile No </label>
+<input type="tel" id="phone" placeholder="Mobile Number:" pattern="{10}" required>
+</div>
+<br>
+
+<div>
+<label for="txt"> Message</label>
+<textarea id="txt" rows="8"></textarea>
+</div>
+<br>
+
+<div>
+<center>
+<button type="submit">Submit Form</button>
+</center>
+</div>
+<br>
+
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head> 
+<title>GALLERY</title>
+<link href="lo.png" rel="icon">
+<meta charset="UTF-8">
+</head>
+<style>
+
+body{
+background-image:url("b16.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+margin-top:100px;
+}
+
+h1{
+font-family:calibri;
+text-align:center;
+color:white
+}
+
+fieldset{
+width:50%;
+margin:auto;
+
+border-color:black;
+border-style:solid;
+background-color:transparent;
+backdrop-filter:brightness(30%);
+border-radius:20px;
+padding:20px;
+
+}
+
+.img{
+display:flex;
+width:900px;
+height:300px;
+
+}
+
+.img img{
+min-width:0;
+flex:1 1 10px;
+object-fit:cover;
+opacity:0.5;
+transition:0.5s;
+border-radius:10px;
+}
+
+.img img:hover{
+flex:1 1 440px;
+opacity:1;
+}
+</style>
+
+<body>
+
+<div class="container">
+<fieldset>
+<h1>ALL ABOUT MY BIKE DELIVERY</h1>
+
+<div class="img">
+	<img src="bike1.jpg" >
+	<img src="bike2.jpg" >	
+	<img src="bike3.jpg" >
+	<img src="sivabike.jpg"> 
+	<img src="bike4.jpg" >
+	<img src="bike5.jpg" >
+	<img src="bike6.jpg" >
+	
+	
+	<img src="bike9.jpg" >
+	<img src="bike10.jpg" >
+</div>
+</fieldset>
+</div>
+</body>
+</html>

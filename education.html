@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head> 
+<title>Education</title>
+<link href="lo.png" rel="icon">
+<meta charset="UTF-8">
+</head>
+
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+width:30%;
+margin: auto;
+padding:10px;
+}
+
+body{
+background-image:url("b17.jpg");
+background-size:cover;
+background-attachment:fixed;
+background-position:center;
+}
+
+fieldset{
+border-color:white;
+border-radius:20px;
+}
+
+table{
+border-color:white;
+}
+body{
+  	height:100%;
+    width: 100%;
+    background-color: black;
+}
+
+#outer{
+       display: grid;
+       grid-template-rows: 7% 23% 70%;
+		gap: 5px;
+
+}
+
+header{
+      height: 100%;
+}
+h1 {
+                
+                color:white;
+                text-align: center;
+                -webkit-text-stroke:1px rgba(225, 216, 230, 0.51);
+                font-variant: small-caps;
+}
+
+#inner{
+                height: 100%;
+                width: 100%;
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content:space-around;
+}
+            
+iframe{
+                height:500px;
+                width: 100%;
+                
+}   
+
+a{
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+}
+
+a:hover{
+       color: red;
+}
+            
+</style>
+</head>
+<body>
+<div id="outer">
+
+<header><h1>My Eduction Details</h1></header>
+
+<div id="inner">
+                <figure>
+                    <img src="edu.jpg" style="height: 100px;">
+                    <figcaption><a href="edu.html" target="test">MY QUALIFICATION</a></figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="reslogo.png" style="height: 100px;">
+                    <figcaption><a href="res.html" target="test">MY RESUME</a></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="clgg.jpg" style="height: 100px;">
+                    <figcaption><a href="clg.html" target="test">MY COLLEGE</a></figcaption>
+                </figure>
+</div>
+
+<div>
+<iframe frameborder="0" name="test"></iframe>
+</div>
+</div>
+</body>
+</html>
